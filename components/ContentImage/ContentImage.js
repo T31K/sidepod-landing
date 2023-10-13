@@ -3,14 +3,14 @@ import { Icon } from "@iconify/react";
 import Image from "next/image";
 import { v4 as uuid } from "uuid";
 
-const ContentImageData = [
+const ContentVideoData = [
     {
         id: uuid(),
         title: "Summon and hide whenever you need",
         content:
             "Summon your music whenever inspiration strikes. Or ask it to tuck itself away to leave your screen clutter-free. Interact with your music without disrupting your workflow.",
         align: "right",
-        image: "/features1.png"
+        video: "/feature_1.mp4"
     },
     {
         id: uuid(),
@@ -18,7 +18,7 @@ const ContentImageData = [
         content:
             "Our Spotify Widget gives you full control over your tracks,  Adjust the volume, skip songs, pause, or shuffle with ease, all from a compact and user-friendly interface.",
         align: "left",
-        image: "/features2.png"
+        video: "/feature_2.mp4"
     },
     {
         id: uuid(),
@@ -26,30 +26,29 @@ const ContentImageData = [
         content:
             "Summon your music whenever inspiration strikes. Or ask it to tuck itself away to leave your screen clutter-free. Interact with your music without disrupting your workflow.",
         align: "right",
-        image: "/features1.png"
+        video: "/feature_3.mp4"
     }
 ];
 
 export const ContentImage = () => {
     return (
         <SectionContainer className="process-items mt-16 space-y-16">
-            {ContentImageData.map((item) => (
+            {ContentVideoData.map((item) => (
                 <div
                     id={item.id}
                     key={item.id}
                     className="process-item--container grid md:grid-cols-2 gap-y-8"
                 >
                     <div
-                        className={`process-item--image rounded-3xl ${
+                        className={`process-item--video rounded-3xl ${
                             item.align === "left" ? "md:order-1" : ""
                         }`}
                     >
-                        <Image
-                            src={item.image}
+                        <video
+                            src={item.video}
                             width={512}
                             height={512}
-                            objectFit="cover"
-                            alt="Process Banner 1"
+                            controls
                             className="drop-shadow-xl w-full offset-y-0 offset-x-8 blur-16"
                         />
                     </div>

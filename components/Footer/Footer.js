@@ -66,7 +66,7 @@ export const Footer = () => {
                                     <a
                                         role="button"
                                         href="https://api.getharmonize.app/sidepod/download_app/"
-                                        className="btn btn--secondary"
+                                        className="btn btn--secondary rounded-full"
                                     >
                                         Download Now
                                         <Icon icon="material-symbols:arrow-forward-rounded" />
