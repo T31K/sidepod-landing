@@ -44,7 +44,6 @@ export const HomeBanner = () => {
                             <a
                                 role="button"
                                 href="https://api.getharmonize.app/sidepod/download_app/"
-                                target="_blank"
                                 className="btn btn--secondary rounded-full"
                             >
                                 Download Now

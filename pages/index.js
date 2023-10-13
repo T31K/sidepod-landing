@@ -22,8 +22,8 @@ export default function Home() {
     return (
         <Layout className="">
             <SEO
-                title="NutriTrack - Avenue Labs landing page template 🚀"
-                description="Discover NutriTrack, the effortless way to plan your meals with the power of Notion. Streamline your nutrition journey and achieve your health goals with ease."
+                title="Sidepod - The Must-Have Spotify Widget for Music Lovers"
+                description="Tiny but powerful Spotify widget to control your music from anywhere, at anytime."
             />
             <div className="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20 ">
                 {/* { Page Banner } */}
