@@ -7,30 +7,31 @@ import clsx from "clsx";
 const accordionData = [
     {
         id: uuid(),
-        title: "What is Notion?",
-        isOpen: true,
+        title: "Does Sidepod have Spotify approval?",
+        isOpen: false,
         content:
-            "Notion is an all-in-one productivity tool that allows you to create notes, databases, and collaborative workspaces, making it easy to organize and manage your tasks, projects, and ideas in one place."
+            "Yes, Sidepod has obtained full approval from Spotify. We adhere to Spotify's guidelines and policies, ensuring that our app and its features are compliant and authorized for use with the Spotify API."
     },
     {
         id: uuid(),
-        title: "Who is this template for?",
+        title: "How much does the premium version cost?",
         isOpen: false,
         content:
-            "This template is specifically designed for Notion creators who want to create a personalized landing page for their Notion workspace, showcasing their projects, services, or content in a visually appealing manner."
+            "The premium version is available for a one-time payment of $15.99, granting access to premium features. This includes one year of free updates to ensure continuous enhancements and improvements."
     },
     {
         id: uuid(),
-        title: "Do I need to pay for this?",
+        title: "What is the refund policy?",
         isOpen: false,
-        content: "No, this is free."
+        content:
+            "Our refund policy is customer-oriented and straightforward. We process all refund requests promptly, no questions asked. We strive to ensure complete customer satisfaction and a hassle-free experience. Please read our refund policy for full details."
     },
     {
         id: uuid(),
-        title: "What will I get when I buy this template?",
+        title: "What will I get when I buy this app?",
         isOpen: false,
         content:
-            "When you purchase this template, you will receive a customizable NextJS landing page template built with TailwindCSS, allowing you to create a personalized and visually stunning landing page for your Notion workspace. The template comes with the necessary setup and documentation to help you get started quickly."
+            "When you purchase this app, you will be entitled to enjoy all premium features, as well as all future updates for 1 year."
     },
     {
         id: uuid(),
@@ -38,6 +39,41 @@ const accordionData = [
         isOpen: false,
         content:
             "If you have any further questions or need assistance regarding this template, please feel free to reach out to me on my website, or click the Contact within the navigation links."
+    },
+    {
+        id: uuid(),
+        title: "What payment methods are available?",
+        isOpen: false,
+        content:
+            "We accept payments through Stripe, a trusted and secure platform. Sidepod will never request any payment details directly. Instead, the only way you can pay is through the app settings page, it redirects you to the official payment page secured with Stripe."
+    },
+    {
+        id: uuid(),
+        title: "Will I receive an invoice for my purchase?",
+        isOpen: false,
+        content:
+            "Absolutely! We provide an invoice for all purchases made through our platform. The invoice will be sent directly to the email address associated with your account, ensuring transparency and record-keeping."
+    },
+    {
+        id: uuid(),
+        title: "How to update my app?",
+        isOpen: false,
+        content:
+            "Just navigate to the settings tab via the menubar update section on the top bar. There, you will find an 'Update App' button that allows you to easily update to the latest version of the app with a single click."
+    },
+    {
+        id: uuid(),
+        title: "What is Sidepod built with?",
+        isOpen: false,
+        content:
+            "Sidepod is a desktop app built with Tauri/Rust and React. The main goal was to design a powerful yet lightweight app."
+    },
+    {
+        id: uuid(),
+        title: "Is Sidepod affliated with Spotify?",
+        isOpen: false,
+        content:
+            "No. Sidepod is an independent entity and is not affiliated with Spotify or its entities in any way. We adhere to developer guidelines and ensure that all music credits are rightfully attributed directly to the artists. We maintain full compliance with these guidelines to uphold the integrity of the music industry and support the creators behind the music."
     }
 ];
 

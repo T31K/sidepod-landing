@@ -14,7 +14,7 @@ export const CardHeader = ({
 }) => {
     // Has badge should chage styling for h2
     return (
-        <div className="card--header">
+        <div className="card--header !mt-0">
             <h2
                 className={clsx(
                     "h2 font-medium text-primary-900",

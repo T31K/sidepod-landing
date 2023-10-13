@@ -6,15 +6,15 @@ import { Icon } from "@iconify/react";
 
 const DATA = [
     {
-        title: "Template",
+        title: "Support",
         items: [
             {
-                label: "Features",
-                href: "#features"
+                label: "Privacy Policy",
+                href: "/privacy"
             },
             {
-                label: "Testimonials",
-                href: "#testimonials"
+                label: "Refund Policy",
+                href: "/refund"
             },
             {
                 label: "FAQ",
@@ -23,27 +23,17 @@ const DATA = [
         ]
     },
     {
-        title: "Company",
+        title: "Contact",
         items: [
             {
-                label: "About",
-                href: "https://github.com/christian-luntok/",
-                target: "_blank"
-            },
-            {
                 label: "Twitter",
-                href: "https://github.com/christian-luntok/",
+                href: "https://twitter.com/t31k__",
                 target: "_blank"
             },
             {
-                label: "Instagram",
-                href: "https://github.com/christian-luntok/",
-                target: "_blank"
-            },
-            {
-                label: "Facebook",
-                href: "https://github.com/christian-luntok/",
-                target: "_blank"
+                label: "contact@sidepod.app",
+                href: "contact@sidepod.app",
+                target: "#"
             }
         ]
     }
@@ -75,10 +65,11 @@ export const Footer = () => {
                                 <ButtonGroup alignment="left">
                                     <a
                                         role="button"
-                                        href="https://avenuelabs.lemonsqueezy.com/checkout/buy/df8ccd46-fa63-4384-b2aa-c4c9b8ad3ef0?embed=1"
-                                        className="btn btn--secondary lemonsqueezy-button"
+                                        href="https://api.getharmonize.app/sidepod/download_app/"
+                                        target="_blank"
+                                        className="btn btn--secondary"
                                     >
-                                        Get Template
+                                        Download Now
                                         <Icon icon="material-symbols:arrow-forward-rounded" />
                                     </a>
                                 </ButtonGroup>
@@ -127,17 +118,8 @@ export const Footer = () => {
             <SectionContainer className="footer-credits relative z-10">
                 <div className="wrap wrap-px py-6">
                     <p className="my-0">
-                        © {year} Nutritrack. All rights reserved{" - "}
-                        <span className="font-normal">
-                            A template by{" "}
-                            <Link
-                                className="transition-colors duration-300 hover:underline"
-                                href="https://cjluntok.com"
-                                target="_blank"
-                            >
-                                Christian Luntok.
-                            </Link>
-                        </span>
+                        © {year} T31 Labs. All rights reserved.
+                        <span className="font-normal"></span>
                     </p>
                 </div>
             </SectionContainer>

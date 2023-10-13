@@ -5,14 +5,15 @@ import { useRouter } from "next/router";
 
 const navigation = [
     { name: "Features", to: "#features", href: "/#features" },
-    { name: "Testimonials", to: "#testimonials", href: "/#testimonials" },
-    { name: "FAQ?", to: "#faq", href: "/#faq" },
-    {
-        name: "Contact",
-        href: "https://cjluntok.com/",
-        isArrow: true,
-        target: "_blank"
-    }
+    // { name: "Testimonials", to: "#testimonials", href: "/#testimonials" },
+    { name: "FAQ", to: "#faq", href: "/#faq" },
+    { name: "Pricing", to: "#pricing", href: "/#pricing" }
+    // {
+    //     name: "Contact",
+    //     href: "https://cjluntok.com/",
+    //     isArrow: true,
+    //     target: "_blank"
+    // }
 ];
 
 export const Nav = () => {
@@ -45,7 +46,7 @@ export const Nav = () => {
                     }`}
                     id="navbar-default"
                 >
-                    <ul className="header-nav--menu">
+                    <ul className="header-nav--menu mr-3">
                         {navigation.map((item) => (
                             <li
                                 key={item.name}

@@ -2,7 +2,7 @@ import { SectionContainer } from "@components/Section";
 import clsx from "clsx";
 
 const titleVariant = {
-    heavy: "text-4xl lg:text-6xl",
+    heavy: "text-4xl lg:text-6xl !font-bold",
     default: "text-3xl lg:text-5xl"
 };
 export const PageTitle = ({ children, className = "", type = "" }) => {

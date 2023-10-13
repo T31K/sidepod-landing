@@ -6,19 +6,27 @@ import { v4 as uuid } from "uuid";
 const ContentImageData = [
     {
         id: uuid(),
-        title: "Effortless Planning",
+        title: "Summon and hide whenever you need",
         content:
-            "Say goodbye to meal planning stress! With NutriTrack, planning your meals becomes a breeze. Our user-friendly Notion template lets you create customized daily or weekly meal plans effortlessly. Enjoy a balanced and nutritious diet without the hassle.",
+            "Summon your music whenever inspiration strikes. Or ask it to tuck itself away to leave your screen clutter-free. Interact with your music without disrupting your workflow.",
         align: "right",
         image: "/features1.png"
     },
     {
         id: uuid(),
-        title: "Shopping List",
+        title: "Full controls over your music",
         content:
-            "We've got your grocery shopping covered! NutriTrack includes a handy shopping list feature. As you plan your meals, the template automatically generates a comprehensive shopping list. No more forgotten items or aimless wandering in the supermarket. Shopping for healthy ingredients has never been easier!",
+            "Our Spotify Widget gives you full control over your tracks,  Adjust the volume, skip songs, pause, or shuffle with ease, all from a compact and user-friendly interface.",
         align: "left",
         image: "/features2.png"
+    },
+    {
+        id: uuid(),
+        title: "Search seamlessly for any songs",
+        content:
+            "Summon your music whenever inspiration strikes. Or ask it to tuck itself away to leave your screen clutter-free. Interact with your music without disrupting your workflow.",
+        align: "right",
+        image: "/features1.png"
     }
 ];
 
@@ -52,7 +60,7 @@ export const ContentImage = () => {
                                 : "md:pl-16 lg:pl-24 xl:pl-32  mr-auto"
                         } my-auto content text-black/60`}
                     >
-                        <h3 className="mb-6 h4 md:h3 font-semibold text-black">
+                        <h3 className="mb-6 h4 md:h3 font-semibold text-black w-[300px]">
                             {item.title}
                         </h3>
                         <p>{item.content}</p>

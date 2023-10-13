@@ -13,7 +13,8 @@ export const HomeBanner = () => {
             <SectionContainer className="page-banner--inner-container wrap wrap-px z-10">
                 {/* Appear First */}
                 <MotionBTTContainer transition={{ delay: 0.2, duration: 0.5 }}>
-                    <BadgeGroup alignment="center">
+                    {/* add PH badge here */}
+                    <BadgeGroup alignment="center" className={"hidden"}>
                         <BadgeMessage>Discover NutriTrack!</BadgeMessage>
                         <BadgeIcon icon="game-icons:meal" />
                     </BadgeGroup>
@@ -21,27 +22,32 @@ export const HomeBanner = () => {
                 {/* Appear Second */}
                 <MotionBTTContainer transition={{ delay: 0.4, duration: 0.5 }}>
                     <PageTitle className="text-center mx-auto" type="heavy">
-                        The effortless way to plan your meals with the power of
-                        Notion.
+                        The Must-Have Spotify Widget for Music Lovers
                     </PageTitle>
                 </MotionBTTContainer>
                 {/* Appear Third */}
                 <MotionBTTContainer transition={{ delay: 0.6, duration: 0.5 }}>
                     <Content className="text-center" alignment="center">
                         <p>
-                            Streamline your nutrition journey and achieve your
-                            health goals with ease.{" "}
+                            Tiny but powerful Spotify widget to control your
+                            music from anywhere, at anytime.
                         </p>
                     </Content>
                     <div className="mt-6 mb-16 text-center">
                         <ButtonGroup alignment="center">
-                            <Button href="#features">Features</Button>
+                            <Button
+                                href="#features"
+                                className="rounded-full bg-stone-300"
+                            >
+                                Features
+                            </Button>
                             <a
                                 role="button"
-                                href="https://avenuelabs.lemonsqueezy.com/checkout/buy/df8ccd46-fa63-4384-b2aa-c4c9b8ad3ef0?embed=1"
-                                className="btn btn--secondary lemonsqueezy-button"
+                                href="https://api.getharmonize.app/sidepod/download_app/"
+                                target="_blank"
+                                className="btn btn--secondary rounded-full"
                             >
-                                Get Template
+                                Download Now
                                 <Icon icon="material-symbols:arrow-forward-rounded" />
                             </a>
                         </ButtonGroup>
