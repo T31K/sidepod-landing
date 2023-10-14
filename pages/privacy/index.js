@@ -9,7 +9,7 @@ export default function Home() {
                 </h1>
                 <div className="flex flex-col space-y-4">
                     <p>
-                        This Privacy Policy outlines how Sidepod ("the App")
+                        This Privacy Policy outlines how Sidepod (the App)
                         collects, uses, and protects the personal information of
                         its users. The App is designed for macOS and allows
                         users to control Spotify. By using the App, you agree to

@@ -10,9 +10,9 @@ export default function RefundPolicy() {
                 <div className="flex flex-col space-y-4">
                     <p>
                         This Refund Policy outlines the terms and conditions for
-                        refunds related to the use of the Sidepod App &ldquo;the
-                        App&rdquo;. By using the App, you agree to comply with
-                        this refund policy.
+                        refunds related to the use of the Sidepod App (the App).
+                        By using the App, you agree to comply with this refund
+                        policy.
                     </p>
 
                     <h2 className="font-semibold text-lg">One-Time Payment:</h2>
