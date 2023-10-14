@@ -54,6 +54,45 @@ export default function Home() {
                         </SectionContainer>
                     </MotionBTTContainer>
                     {/* Card Container Tabs */}
+
+                    {/* Testimonials */}
+                    {/* <MotionBTTContainer
+                        transition={{ delay: 0.2, duration: 0.5 }}
+                    >
+                        <SectionContainer
+                            id="testimonials"
+                            className="benefits"
+                        >
+                            <BadgeGroup alignment="left">
+                                <BadgeMessage>Testimonials</BadgeMessage>
+                                <BadgeIcon icon="twemoji:waving-hand" />
+                            </BadgeGroup>
+                            <PageTitle className="" type="default">
+                                This is what our customers have to say about
+                                this template
+                            </PageTitle>
+                            <Columns />
+                        </SectionContainer>
+                    </MotionBTTContainer> */}
+                    {/* Accordions */}
+                    <MotionBTTContainer
+                        transition={{ delay: 0.2, duration: 0.5 }}
+                    >
+                        <SectionContainer id="faq" className="faq">
+                            <BadgeGroup alignment="center">
+                                <BadgeMessage>FAQ</BadgeMessage>
+                                {/* <BadgeIcon icon="twemoji:-bag" /> */}
+                            </BadgeGroup>
+                            <PageTitle
+                                className="text-center mx-auto"
+                                type="default"
+                            >
+                                Got some burning questions about{" "}
+                                <strong>Sidepod</strong>? <br />
+                            </PageTitle>
+                            <Accordion />
+                        </SectionContainer>
+                    </MotionBTTContainer>
                     <MotionBTTContainer
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
@@ -189,44 +228,6 @@ export default function Home() {
                                     </CardBody>
                                 </Card>
                             </CardGroup>
-                        </SectionContainer>
-                    </MotionBTTContainer>
-                    {/* Testimonials */}
-                    {/* <MotionBTTContainer
-                        transition={{ delay: 0.2, duration: 0.5 }}
-                    >
-                        <SectionContainer
-                            id="testimonials"
-                            className="benefits"
-                        >
-                            <BadgeGroup alignment="left">
-                                <BadgeMessage>Testimonials</BadgeMessage>
-                                <BadgeIcon icon="twemoji:waving-hand" />
-                            </BadgeGroup>
-                            <PageTitle className="" type="default">
-                                This is what our customers have to say about
-                                this template
-                            </PageTitle>
-                            <Columns />
-                        </SectionContainer>
-                    </MotionBTTContainer> */}
-                    {/* Accordions */}
-                    <MotionBTTContainer
-                        transition={{ delay: 0.2, duration: 0.5 }}
-                    >
-                        <SectionContainer id="faq" className="faq">
-                            <BadgeGroup alignment="center">
-                                <BadgeMessage>FAQ</BadgeMessage>
-                                {/* <BadgeIcon icon="twemoji:-bag" /> */}
-                            </BadgeGroup>
-                            <PageTitle
-                                className="text-center mx-auto"
-                                type="default"
-                            >
-                                Got some burning questions about{" "}
-                                <strong>Sidepod</strong>? <br />
-                            </PageTitle>
-                            <Accordion />
                         </SectionContainer>
                     </MotionBTTContainer>
                 </SectionContainer>

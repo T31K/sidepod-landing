@@ -57,6 +57,7 @@ export const HomeBanner = () => {
                     <div className="page-banner--image">
                         <video
                             src="/hero_test.mp4"
+                            poster="/splash_hero.png"
                             width={512}
                             height={512}
                             autoPlay={false}
