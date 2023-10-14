@@ -10,7 +10,7 @@ const ContentVideoData = [
         content:
             "Summon your music whenever inspiration strikes. Or ask it to tuck itself away to leave your screen clutter-free. Interact with your music without disrupting your workflow.",
         align: "right",
-        video: "/feature_1.mp4"
+        video: "/feature_1_test.mp4"
     },
     {
         id: uuid(),
@@ -18,7 +18,7 @@ const ContentVideoData = [
         content:
             "Our Spotify Widget gives you full control over your tracks,  Adjust the volume, skip songs, pause, or shuffle with ease, all from a compact and user-friendly interface.",
         align: "left",
-        video: "/feature_2.mp4"
+        video: "/feature_2_test.mp4"
     },
     {
         id: uuid(),
@@ -26,7 +26,7 @@ const ContentVideoData = [
         content:
             "Summon your music whenever inspiration strikes. Or ask it to tuck itself away to leave your screen clutter-free. Interact with your music without disrupting your workflow.",
         align: "right",
-        video: "/feature_3.mp4"
+        video: "/feature_3_test.mp4"
     }
 ];
 
@@ -48,8 +48,10 @@ export const ContentImage = () => {
                             src={item.video}
                             width={512}
                             height={512}
-                            controls
-                            className="drop-shadow-xl w-full offset-y-0 offset-x-8 blur-16"
+                            autoPlay={false}
+                            loop
+                            controls={true}
+                            className="drop-shadow-xl rounded-2xl w-full offset-y-0 offset-x-8 blur-16"
                         />
                     </div>
                     <div

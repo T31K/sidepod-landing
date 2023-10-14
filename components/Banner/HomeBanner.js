@@ -37,7 +37,7 @@ export const HomeBanner = () => {
                         <ButtonGroup alignment="center">
                             <Button
                                 href="#features"
-                                className="rounded-full bg-stone-300"
+                                className="rounded-full bg-stone-300 hover:bg-stone-700 hover:text-white"
                             >
                                 Features
                             </Button>
@@ -55,13 +55,14 @@ export const HomeBanner = () => {
                 {/* Appear Fourth */}
                 <MotionBTTContainer transition={{ delay: 0.8, duration: 0.5 }}>
                     <div className="page-banner--image">
-                        <Image
-                            src="/nutritrack-hero-banner.png"
-                            width={1024}
-                            height={680}
-                            alt="Page Banner"
-                            objectFit="cover"
-                            className="mx-auto"
+                        <video
+                            src="/hero_test.mp4"
+                            width={512}
+                            height={512}
+                            autoPlay={false}
+                            loop
+                            controls={true}
+                            className="drop-shadow-xl w-[80%] rounded-2xl mx-auto"
                         />
                     </div>
                 </MotionBTTContainer>
