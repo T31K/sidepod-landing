@@ -74,6 +74,11 @@ const SEO = ({ title, description, keywords }) => {
             <meta name="theme-color" content="#ffffff" />
             <link rel="alternate" type="application/rss+xml" href="/rss.xml" />
             <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+            <script
+                src="https://beamanalytics.b-cdn.net/beam.min.js"
+                data-token="982c6d23-5935-4f74-9573-c6a2bf79e753"
+                async
+            ></script>
         </Head>
     );
 };
