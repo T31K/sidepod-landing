@@ -22,14 +22,15 @@ export default function Home() {
                     </h2>
                     <p>
                         The App collects and uses the following information for
-                        the purpose of connecting the user to Spotify's API:
+                        the purpose of connecting the user to Spotify&apos;s
+                        API:
                     </p>
                     <p>
                         <strong>Email Address:</strong> The App strictly
-                        collects the user's email address. This information is
-                        used solely for the purpose of connecting the user to
-                        Spotify's API and providing access to the App's
-                        functionalities.
+                        collects the user&apos;s email address. This information
+                        is used solely for the purpose of connecting the user to
+                        Spotify&apos;s API and providing access to the
+                        App&apos;s functionalities.
                     </p>
 
                     <h2 className="font-semibold text-lg">2. Data Security:</h2>
@@ -46,20 +47,20 @@ export default function Home() {
                         3. Third-Party Services:
                     </h2>
                     <p>
-                        The App may use third-party services, such as Spotify's
-                        API, to provide its functionalities. These services have
-                        their own privacy policies governing the collection,
-                        use, and disclosure of personal information. We
-                        encourage you to review the privacy policies of these
-                        third-party services.
+                        The App may use third-party services, such as
+                        Spotify&apos;s API, to provide its functionalities.
+                        These services have their own privacy policies governing
+                        the collection, use, and disclosure of personal
+                        information. We encourage you to review the privacy
+                        policies of these third-party services.
                     </p>
 
                     <h2 className="font-semibold text-lg">
                         4. Data Retention:
                     </h2>
                     <p>
-                        The App retains the user's email address for as long as
-                        necessary to provide access to the App's
+                        The App retains the user&apos;s email address for as
+                        long as necessary to provide access to the App&apos;s
                         functionalities. If a user decides to revoke access or
                         delete their account, their email address will be
                         promptly deleted from our records.
@@ -71,11 +72,11 @@ export default function Home() {
                     <p>
                         The App does not share or sell personal information with
                         any third parties, except as required by law or with the
-                        user's explicit consent.
+                        user&apos;s explicit consent.
                     </p>
 
                     <h2 className="font-semibold text-lg">
-                        6. Children's Privacy:
+                        6. Children&apos;s Privacy:
                     </h2>
                     <p>
                         The App does not knowingly collect personal information
@@ -98,8 +99,8 @@ export default function Home() {
                     <h2 className="font-semibold text-lg">8. Contact Us:</h2>
                     <p>
                         If you have any questions or concerns about this Privacy
-                        Policy or the App's privacy practices, please contact us
-                        at contact@sidepod.app.
+                        Policy or the App&apos;s privacy practices, please
+                        contact us at contact@sidepod.app.
                     </p>
                 </div>
             </div>

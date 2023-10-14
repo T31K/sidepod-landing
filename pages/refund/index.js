@@ -18,8 +18,8 @@ export default function RefundPolicy() {
                     <h2 className="font-semibold text-lg">One-Time Payment:</h2>
                     <p>
                         The Sidepod App uses a one-time payment model. Once a
-                        payment is made for the app's premium features, it is
-                        final. There are no automatic recurring charges or
+                        payment is made for the app&apos;s premium features, it
+                        is final. There are no automatic recurring charges or
                         subscriptions linked to it, or any hidden charges
                         involved.
                     </p>
@@ -28,16 +28,16 @@ export default function RefundPolicy() {
                         No Questions Asked Refund:
                     </h2>
                     <p>
-                        If for any reason you're not satisfied with the App, you
-                        can request a refund. No explanations or reasons are
-                        required.
+                        If for any reason you&apos;re not satisfied with the
+                        App, you can request a refund. No explanations or
+                        reasons are required.
                     </p>
 
                     <h2 className="font-semibold text-lg">
                         How to Request a Refund:
                     </h2>
                     <p>
-                        Please contact our support team at{" "}
+                        Please contact our support team at
                         <a
                             href="mailto:contact@sidepod.app"
                             className="text-blue-500 underline"
@@ -74,7 +74,7 @@ export default function RefundPolicy() {
                     <h2 className="font-semibold text-lg">Contact Us:</h2>
                     <p>
                         If you have any questions or need assistance, please
-                        reach out to our support team at{" "}
+                        reach out to our support team at
                         <a
                             href="mailto:contact@sidepod.app"
                             className="text-blue-500 underline"
