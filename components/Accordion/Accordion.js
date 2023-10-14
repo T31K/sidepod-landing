@@ -35,13 +35,6 @@ const accordionData = [
     },
     {
         id: uuid(),
-        title: "Where can I ask more questions about this template?",
-        isOpen: false,
-        content:
-            "If you have any further questions or need assistance regarding this template, please feel free to reach out to me on my website, or click the Contact within the navigation links."
-    },
-    {
-        id: uuid(),
         title: "What payment methods are available?",
         isOpen: false,
         content:
@@ -56,10 +49,10 @@ const accordionData = [
     },
     {
         id: uuid(),
-        title: "How to update my app?",
+        title: "How do I update my app?",
         isOpen: false,
         content:
-            "Just navigate to the settings tab via the menubar update section on the top bar. There, you will find an 'Update App' button that allows you to easily update to the latest version of the app with a single click."
+            "Open the settings window via the menubar update section on the top bar. Then navigate to the update tab. Click on 'Update App'."
     },
     {
         id: uuid(),
@@ -70,7 +63,7 @@ const accordionData = [
     },
     {
         id: uuid(),
-        title: "Is Sidepod affliated with Spotify?",
+        title: "Is Sidepod affiliated with Spotify?",
         isOpen: false,
         content:
             "No. Sidepod is an independent entity and is not affiliated with Spotify or its entities in any way. We adhere to developer guidelines and ensure that all music credits are rightfully attributed directly to the artists. We maintain full compliance with these guidelines to uphold the integrity of the music industry and support the creators behind the music."
