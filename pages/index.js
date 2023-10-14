@@ -96,7 +96,7 @@ export default function Home() {
                     <MotionBTTContainer
                         transition={{ delay: 0.2, duration: 0.5 }}
                     >
-                        <SectionContainer className="feature-tabs">
+                        <SectionContainer id="pricing" className="feature-tabs">
                             <BadgeGroup alignment="center">
                                 <BadgeMessage>Pricing</BadgeMessage>
                                 {/* <BadgeIcon icon="twemoji:money-bag" /> */}
