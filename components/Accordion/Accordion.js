@@ -17,7 +17,7 @@ const accordionData = [
         title: "How much does the premium version cost?",
         isOpen: false,
         content:
-            "The premium version is available for a one-time payment of $15.99, granting access to premium features. This includes one year of free updates to ensure continuous enhancements and improvements."
+            "The premium version is available for a one-time payment of $19.99, granting access to premium features. This includes one year of free updates to ensure continuous enhancements and improvements."
     },
     {
         id: uuid(),

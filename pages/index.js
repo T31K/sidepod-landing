@@ -173,7 +173,7 @@ export default function Home() {
                                             Basic
                                         </CardHeader>
                                         <CardHeader className="!text-black flex items-end !text-5xl !font-bold !my-3">
-                                            $15.99
+                                            $19.99
                                             <div className="text-sm font-semibold ml-2">
                                                 one time
                                             </div>
