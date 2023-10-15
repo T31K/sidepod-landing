@@ -19,7 +19,7 @@ export const HomeBanner = () => {
                             alt="Sidepod - A&#0032;Spotify&#0032;widget&#0032;to&#0032;control&#0032;your&#0032;music&#0032;from&#0032;anywhere | Product Hunt"
                             width="250"
                             height="54"
-                            className="w-[250px] h-[54px]"
+                            className="w-[250px] h-[54px] mx-auto"
                         />
                     </a>
                     <BadgeGroup alignment="center" className={"hidden"}>
