@@ -71,6 +71,7 @@ const SEO = ({ title, description, keywords }) => {
             <title>{title}</title>
 
             <meta name="msapplication-TileColor" content="#da532c" />
+            <meta name="saashub-verification" content="d5yw1c9szhsu" />
             <meta name="theme-color" content="#ffffff" />
             <link rel="alternate" type="application/rss+xml" href="/rss.xml" />
             <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
